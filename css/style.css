@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/* CSS Document */
+/*blue-purple = #292F6C*/
+
+body {
+    background-image: url("../img/brickwall_@2X.png");
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-family: 'Bitter', serif;
+/*replace with your graphic*/
+}
+.container {
+    background: #fff;/*your color here*/
+}
+
+#header {
+    height: 90px;
+    background-color:#381A2C;
+	border-bottom: thin solid grey/*your color here*/
+}
+
+#hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+	background-image: url("../img/kamau and mic.jpg");
+	background-size: cover;	
+	background-color: #3E224B;
+	background-blend-mode: soft-light;
+		
+	/*your background color here*/
+	/*your blend mode here*/
+	/*your bbackground . image here*/
+	/*height*/
+	
+}
+
+h1 {color:#AAAAAA;
+	font-size: 30px;
+	text-align: center;
+}
+
+h2 {color:#AAAAAA;
+	font-size: 100px;
+	padding-left: 20px;
+	padding-right: 800px;
+	line-height: 110px;
+	text-align: center;
+	
+  	-webkit-text-stroke-width: .1px;
+  	-webkit-text-stroke-color: #292F6C;
+	
+	
+	
+	}
+h3 {color: #381A2C;
+	font-size:20px;
+	padding:30px;}
+
+.dropcap {font-size: 70px;
+    float: left;
+    margin-top: 90px;
+	color:#381A2C;}
+
+p {font-size: 20px;
+	margin-top: 80px;
+	margin-right: 10px;
+	margin-left: 30px;
+	line-height: 30px;
+	}
+blockquote {
+	border-left-color:#292F6C;
+	font-size:15px;
+			
+			}
+h4 a {color: #292F6C;
+		font-size: 40px}
+
+#learn_more {color:#AAAAAA;
+			font-size: 10px;
+			word-break: keep-all;
+			padding-left: 20px;
+			background-color: #381A2C;
+			font-size: 20px;
+			border:thick #381A2C;
+			border-radius: 4px;
+			text-align: center;
+			padding-left: 40px;
+			padding-right: 40px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			margin-left: 20px;
+			margin-right: 20px;
+	
+	
+			
+}
+
+/*navigation*/
+
+#nav {display: flex;
+	 flex-wrap:wrap;
+   /*hint: flex and flex wrap*/
+}
+#nav li {display: flex;
+	flex: 1 1 250px;
+	margin-bottom: 20px;
+		
+
+/*hint: flex basis; height and width*/
+}
+	  
+
+#nav a {color:white;
+			font-size: 25px;
+			transition: 1s;
+			font-weight: 900;
+	height:250px;
+	width: 250px;
+	display: flex;
+    justify-content: center;
+	align-items:flex-end;
+		
+		     
+	/*your styling here
+	hint: transition here;
+	height and width*/
+}
+#nav a:hover {background-color:#6E6E6E;
+			  color:black;
+			  background-blend-mode: soft-light;
+			  transition: 1s;
+   /*your background color here*/
+	 /*your blend mode here*/
+	/*your text color here*/
+}
+
+.circ {
+	padding: 10px;
+	background-color:#AAAAAA;
+	border-radius:50%;
+	border: 6px solid #292F6C;
+		margin-top: 20px;
+		margin-bottom: 20px;
+}
+.current{border:thick solid #381A2C;
+		 border-radius:4px;}/*your solution here*/
+
+
+#miranda {background-image:url(../img/miranda.jpg);background-size:cover;}
+#kondabolu {background-image:url(../img/kondabalu.jpg);background-size:cover;}
+#pahlka {background-image:url(../img/pahlka.jpg);background-size:cover;}
+#chima {background-image:url(../img/chima.jpg);background-size:cover;}
+#sarkeesian {background-image:url(../img/sarkeesian.jpg);background-size:cover;}
+#cox {background-image:url(../img/cox.jpg);background-size:cover;}
+#smith {background-image:url(../img/smith.jpg);background-size:cover;}
+#soloway {background-image:url(../img/soloway.jpg);background-size:cover;}
+#copeland {background-image:url(../img/copeland.jpg);background-size:cover;}
+#coates {background-image:url(../img/coates.jpg);background-size:cover;}
+#harris {background-image:url(../img/harris.jpg);background-size:cover;}
+#kamau {background-image:url(../img/kamau.jpg);background-size:cover;}
+
+#footer {background-color:#381A2C;
+			height: 80px;
+	border-top: thick solid #AAAAAA;}
+
+
+
+
+
+
+
+
+
+
+
+
+.row_lg {
+    display: flex; /*this is what centers the text*/
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+/*.circ {
+    border-radius: 50%;
+    border: 8px solid #666;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}/*
+
+
+/*typographic*/
+body {
+    color: #363c41;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.01rem;
+}
+b, strong {
+    font-weight: 700;
+}
+
+
+
+
+@media  (min-width: 1100px) {
+	
+}
+
+
+@media (min-width:601px) and (max-width: 1100px) {
+/*tablet*/
+
+}
+
+@media (max-width: 600px) {
+/*large phone*/
+.hide_on_mobile {
+    display: none;/*hides images*/
+}
+
+}
+
+@media (max-width: 400px) {
+/*small phone*/
+}
